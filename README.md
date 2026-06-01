@@ -19,34 +19,34 @@ HTML5 e CSS3
 
 JavaScript com Fetch API
 
-Como instalar e executar
-Extraia o arquivo CepConsulta
+Como instalar e executar? 
+1 - Extraia o arquivo CepConsulta
 
-Copie a pasta extraída
+2 - Copie a pasta extraída
 
-Localize o diretório do XAMPP no seu computador
+3 - Localize o diretório do XAMPP no seu computador
 
-Abra a pasta htdocs dentro do XAMPP
+4 - Abra a pasta htdocs dentro do XAMPP
 
-Cole a pasta CepConsulta dentro de htdocs
+5 - Cole a pasta CepConsulta dentro de htdocs
 
-Inicie o XAMPP e ative os serviços Apache e MySQL
+6 - Inicie o XAMPP e ative os serviços Apache e MySQL
 
-Acesse o phpMyAdmin através do link http://localhost/phpmyadmin
+7 - Acesse o phpMyAdmin através do link http://localhost/phpmyadmin
 
-Crie um novo banco de dados com o nome pwiiib
+8 - Crie um novo banco de dados com o nome pwiiib
 
-Abra o arquivo MySql.text localizado dentro da pasta do projeto
+9 - Abra o arquivo MySql.text localizado dentro da pasta do projeto
 
-Copie todo o conteúdo deste arquivo
+10 - Copie todo o conteúdo deste arquivo
 
-No phpMyAdmin, selecione o banco pwiiib
+11 - No phpMyAdmin, selecione o banco pwiiib
 
-Vá na aba SQL e cole o conteúdo copiado
+12 - Vá na aba SQL e cole o conteúdo copiado
 
-Execute o comando clicando no botão Executar
+13 - Execute o comando clicando no botão Executar
 
-No navegador, acesse http://localhost/cepConsulta/cepConsulta/View/index.html
+14 - No navegador, acesse http://localhost/cepConsulta/cepConsulta/View/index.html
 
 CEPs para teste
 01001000 - Praça da Sé, São Paulo
