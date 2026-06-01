@@ -20,6 +20,7 @@ HTML5 e CSS3
 JavaScript com Fetch API
 
 Como instalar e executar? 
+
 1 - Extraia o arquivo CepConsulta
 
 2 - Copie a pasta extraída
