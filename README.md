@@ -1,24 +1,56 @@
-# viaCep
-SITE CONSUMINDO API DO VIA CEP E PODENDO EXECUTAR MÉTODO DE CONSULTA E DELETE
+CEP Consulta
+Sistema web que consome a API do ViaCEP permitindo consultar endereços, salvar no banco de dados e executar operações de deleção.
 
-Como usar? 
+Funcionalidades
+Buscar endereço por CEP através da API ViaCEP
 
-1 - Extrair o arquivo CepConsulta;
-2 - Copiar ou recortar o mesmo depois de extraido;
-3 - Localizar no sitema Explorador de arquivos a pasta XAMPP;
-4 - Abrir a pasta XAMPP;
-5 - Localizar dentro da pasta XAMPP a pasta htdocs;
-6 - Abrir a pasta htdocs;
-7 - Colar o arquivo copiada ou extraido dentro da pasta htdocs;
-8 - Acessar a interface visual do XAMPP;
-9 - Executar o php e MySqlAdmin no XAMPP;
-10 - Acessar novamente a pasta do CepConsulta;
-11 - Acessar o arquivo MySql.text;
-12 - Copiar o conteúdo dentro do mesmo;
-13 - Acessar o admin do MySqlAdmin;
-14 - Criar um novo banco de dados no mesmo e nomealo de pwiiib;
-15 - Acessar o banco pwiiib;
-16 - Colar o contudo do arquivo MySql.text dentro da parte SQL;
-17 - Executar o Sql;
-18 - Acessar http://localhost/cepConsulta/cepConsulta/View/index.html no navegador;
-19 - Aproveitar :D
+Salvar endereços automaticamente no banco de dados
+
+Listar todos os endereços salvos
+
+Deletar endereços cadastrados
+
+Tecnologias utilizadas
+PHP com PDO
+
+MySQL
+
+HTML5 e CSS3
+
+JavaScript com Fetch API
+
+Como instalar e executar
+Extraia o arquivo CepConsulta
+
+Copie a pasta extraída
+
+Localize o diretório do XAMPP no seu computador
+
+Abra a pasta htdocs dentro do XAMPP
+
+Cole a pasta CepConsulta dentro de htdocs
+
+Inicie o XAMPP e ative os serviços Apache e MySQL
+
+Acesse o phpMyAdmin através do link http://localhost/phpmyadmin
+
+Crie um novo banco de dados com o nome pwiiib
+
+Abra o arquivo MySql.text localizado dentro da pasta do projeto
+
+Copie todo o conteúdo deste arquivo
+
+No phpMyAdmin, selecione o banco pwiiib
+
+Vá na aba SQL e cole o conteúdo copiado
+
+Execute o comando clicando no botão Executar
+
+No navegador, acesse http://localhost/cepConsulta/cepConsulta/View/index.html
+
+CEPs para teste
+01001000 - Praça da Sé, São Paulo
+
+01310100 - Avenida Paulista, São Paulo
+
+20040030 - Centro do Rio de Janeiro
