@@ -49,7 +49,7 @@ Como instalar e executar?
 
 14 - Execute o comando clicando no botão Executar
 
-15 - No navegador, acesse http://localhost/cepConsulta/cepConsulta/View/index.html
+15 - No navegador, acesse http://localhost/cepConsulta/View/index.html
 
 CEPs para teste
 01001000 - Praça da Sé, São Paulo
